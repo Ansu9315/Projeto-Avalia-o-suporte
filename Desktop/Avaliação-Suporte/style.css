@@ -1,0 +1,116 @@
+body{
+    background-color: ##f2f2f2;
+}
+.introducao{
+    font-family: poppins,sans-serif;
+    font-size: 24px;
+    display: inline-block;
+    position: relative;
+
+}
+
+.nome{
+    color: #000B68;
+    font-family: poppins, sans-serif;
+    font-size: 22px;
+
+}
+.linha{
+    background-color: #000b68;
+    width: 160px;
+    height: 5px;
+    border-radius: 100px;
+}
+
+@media only screen and (max-width: 1070px) {
+    .introducao{
+        font-size: 20px;
+    }
+    .nome{
+        font-size: 18px;
+    }
+
+}
+
+.imagem{
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+@media only screen and (max-width: 1070px) {
+    .imagem{
+        display: none;
+    }
+
+}
+
+.perguntas{
+    font-family: poppins, sans-serif;
+    font-size:18px ;
+}
+
+.butao{
+    padding: 8px;
+    width: 52px;
+    font-family: poppins, sans-serif;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: white;
+    border-color: #e5e5e5;
+    cursor: pointer;
+
+}
+
+.butao {
+    transition-duration: 0.4s;
+}
+
+.butao:hover {
+    background-color: #000b68;
+    color: white;
+    border-color: #000b68;
+}
+.butao:focus{
+    background-color: #000B68;
+    color:white;
+    border-color: #000b68;
+}
+.selecao{
+    padding: 20px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    background-color: #FFFFFF;
+    font-family: poppins, sans-serif;
+
+}
+.campodetexto{
+    width: 380px;
+    background-color: white;
+    border-color: #e5e5e5;
+    border-style: solid;
+    border-radius: 8px;
+    height: 107px;
+    padding: 10px;
+}
+.butao2{
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: #000b68;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: poppins, sans-serif;
+    font-size:15px;
+    border-style:none;
+
+}
+.modal-header{
+    border-bottom: none;
+}
+.modal-footer{
+   justify-content: center;
+}
